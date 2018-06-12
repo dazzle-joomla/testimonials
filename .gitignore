@@ -1,0 +1,22 @@
+.idea
+
+/component/testimonials.xml
+/component/backend/testimonials.xml
+/component/backend/testimonials.lastversion.php
+/component/backend/CHANGELOG.php
+/component/backend/assets/stats
+/component/backend/version.php
+
+/component/cli/*.xml
+
+/component/backend/media/css/fef*
+/component/backend/media/fonts
+/component/backend/media/images
+
+/release/*
+
+# Internal language symlinks
+/component/language/*/en-GB
+/modules/*/*/language/en-GB
+/plugins/*/*/language/en-GB
+/translations

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="2.5.0" method="upgrade">
+	<name>Testimonials</name>
+	<creationDate>##DATE##</creationDate>
+	<author>Nicholas K. Dionysopoulos</author>
+	<authorEmail>nicholas@akeebabackup.com</authorEmail>
+	<authorUrl>http://www.akeebabackup.com</authorUrl>
+	<copyright>Copyright (c)2010-2018 Nicholas K. Dionysopoulos</copyright>
+	<license>This component in released under the GNU/GPL v3 or later license</license>
+	<version>##VERSION##</version>
+	<description>Collect and manage testimonials</description>
+
+	<!-- Public front end files -->
+	<files folder="frontend">
+		<filename>testimonials.php</filename>
+	</files>
+
+	<!-- Front end translation files -->
+	<languages folder="language/frontend">
+		<language tag="en-GB">en-GB/en-GB.com_testimonials.ini</language>
+	</languages>
+
+	<!-- Administrator back-end section -->
+	<administration>
+		<!-- Administration menu -->
+		<menu view="cpanel">COM_TESTIMONIALS</menu>
+
+		<!-- Back-end files -->
+		<files folder="backend">
+			<filename>testimonials.php</filename>
+            <filename>version.php</filename>
+		</files>
+
+		<!-- Back-end translation files -->
+		<languages folder="language/backend">
+			<language tag="en-GB">en-GB/en-GB.com_testimonials.ini</language>
+			<language tag="en-GB">en-GB/en-GB.com_testimonials.sys.ini</language>
+			<language tag="en-GB">en-GB/en-GB.com_testimonials.menu.ini</language>
+		</languages>
+
+	</administration>
+
+	<!-- Installation / uninstallation PHP scripts -->
+	<scriptfile>script.com_testimonials.php</scriptfile>
+</extension>
